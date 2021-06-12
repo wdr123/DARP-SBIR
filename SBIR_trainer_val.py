@@ -768,9 +768,9 @@ class Trainer:
                 average_rp.append(rank_percentile)
 
                 if rank_all[i, j].item() == 0:
-                    avererage_area.append(1.+0.011)
+                    avererage_area.append(1.)
                 else:
-                    avererage_area.append((1. / rank_all[i, j].item())+0.011)
+                    avererage_area.append((1. / rank_all[i, j].item()))
 
 
 
