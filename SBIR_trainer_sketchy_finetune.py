@@ -761,11 +761,11 @@ class Trainer:
                 avererage_area.append(1. / rank_all[i].item())
 
 
-
         top5_accuracy = rank_all.le(5).sum().numpy() / rank_all.shape[0]
         top10_accuracy = rank_all.le(10).sum().numpy() / rank_all.shape[0]
         meanIOU = np.mean(avererage_area)
         rp = np.mean(average_rp)
+
         # log to tensorboard
         # if self.use_tensorboard:
         #     iteration = epoch * len(self.valid_loader) + i
