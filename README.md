@@ -13,6 +13,11 @@ The python files SBIR_*.py are the core framework codes to run this project unde
 + bresenham
 + Pillow
 
+## Dataset
++ [Sketchy](https://sketchy.eye.gatech.edu)
++ [QMUL-Shoe-V2](http://sketchx.eecs.qmul.ac.uk/downloads/)
++ [QMUL-Chair-V2](http://sketchx.eecs.qmul.ac.uk/downloads/)
+
 ## Pre-trained
 + Pre-trained Embeddings
    + [Train.pickle](https://drive.google.com/file/d/1r31g97k3OHfOqUMAKSmELiXQ0wLVCZYZ/view?usp=sharing)
